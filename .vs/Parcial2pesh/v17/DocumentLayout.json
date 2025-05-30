@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\PROGRAMACION\\Parcial2pesh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\PROGRAMACION\\sis457_2024_2\\ddl_dml_minerva.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF402060-668B-4339-AB0D-9BA9066871AB}|CpParcial2Pesh\\CpParcial2Pesh.csproj|G:\\PROGRAMACION\\Parcial2pesh\\cpparcial2pesh\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF402060-668B-4339-AB0D-9BA9066871AB}|CpParcial2Pesh\\CpParcial2Pesh.csproj|solutionrelative:cpparcial2pesh\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\PROGRAMACION\\Parcial2pesh\\ddl_dml_Parcial2Pesh.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ddl_dml_Parcial2Pesh.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E54688B-D72B-45F1-9CAA-04D6C6B2E82F}|CadParcial2Pesh\\CadParcial2Pesh.csproj|g:\\programacion\\parcial2pesh\\cadparcial2pesh\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{4E54688B-D72B-45F1-9CAA-04D6C6B2E82F}|CadParcial2Pesh\\CadParcial2Pesh.csproj|solutionrelative:cadparcial2pesh\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF402060-668B-4339-AB0D-9BA9066871AB}|CpParcial2Pesh\\CpParcial2Pesh.csproj|g:\\programacion\\parcial2pesh\\cpparcial2pesh\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF402060-668B-4339-AB0D-9BA9066871AB}|CpParcial2Pesh\\CpParcial2Pesh.csproj|solutionrelative:cpparcial2pesh\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF402060-668B-4339-AB0D-9BA9066871AB}|CpParcial2Pesh\\CpParcial2Pesh.csproj|G:\\PROGRAMACION\\Parcial2pesh\\cpparcial2pesh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF402060-668B-4339-AB0D-9BA9066871AB}|CpParcial2Pesh\\CpParcial2Pesh.csproj|solutionrelative:cpparcial2pesh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55EAC6F-4DD8-4343-AF50-93767896F82F}|ClnParcial2Pesh\\ClnParcial2Pesh.csproj|G:\\PROGRAMACION\\Parcial2pesh\\clnparcial2pesh\\seriescln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55EAC6F-4DD8-4343-AF50-93767896F82F}|ClnParcial2Pesh\\ClnParcial2Pesh.csproj|solutionrelative:clnparcial2pesh\\seriescln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\PROGRAMACION\\Parcial2pesh\\ddl_dml_Parcial2Pesh.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ddl_dml_Parcial2Pesh.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\PROGRAMACION\\Parcial2pesh\\ddl_dml_Parcial2Pesh.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ddl_dml_Parcial2Pesh.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\PROGRAMACION\\sis457_2024_2\\ddl_dml_minerva.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Modelo.edmx [Diagram1]",
+              "DocumentMoniker": "G:\\PROGRAMACION\\Parcial2pesh\\CadParcial2Pesh\\Modelo.edmx",
+              "RelativeDocumentMoniker": "CadParcial2Pesh\\Modelo.edmx",
+              "ToolTip": "G:\\PROGRAMACION\\Parcial2pesh\\CadParcial2Pesh\\Modelo.edmx [Diagram1]",
+              "RelativeToolTip": "CadParcial2Pesh\\Modelo.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-30T23:34:40.892Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ddl_dml_minerva.sql ",
+              "DocumentMoniker": "G:\\PROGRAMACION\\sis457_2024_2\\ddl_dml_minerva.sql",
+              "RelativeDocumentMoniker": "..\\sis457_2024_2\\ddl_dml_minerva.sql",
+              "ToolTip": "ddl_dml_minerva.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-30T23:33:22.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ddl_dml_Parcial2Pesh.sql ",
+              "DocumentMoniker": "G:\\PROGRAMACION\\Parcial2pesh\\ddl_dml_Parcial2Pesh.sql",
+              "RelativeDocumentMoniker": "ddl_dml_Parcial2Pesh.sql",
+              "ToolTip": "ddl_dml_Parcial2Pesh.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-30T23:32:49.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SeriesCln.cs",
+              "DocumentMoniker": "G:\\PROGRAMACION\\Parcial2pesh\\ClnParcial2Pesh\\SeriesCln.cs",
+              "RelativeDocumentMoniker": "ClnParcial2Pesh\\SeriesCln.cs",
+              "ToolTip": "G:\\PROGRAMACION\\Parcial2pesh\\ClnParcial2Pesh\\SeriesCln.cs",
+              "RelativeToolTip": "ClnParcial2Pesh\\SeriesCln.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T19:37:40.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmSerie.cs",
+              "DocumentMoniker": "G:\\PROGRAMACION\\Parcial2pesh\\CpParcial2Pesh\\FrmSerie.cs",
+              "RelativeDocumentMoniker": "CpParcial2Pesh\\FrmSerie.cs",
+              "ToolTip": "G:\\PROGRAMACION\\Parcial2pesh\\CpParcial2Pesh\\FrmSerie.cs",
+              "RelativeToolTip": "CpParcial2Pesh\\FrmSerie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T19:27:00.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\PROGRAMACION\\Parcial2pesh\\CpParcial2Pesh\\Program.cs",
+              "RelativeDocumentMoniker": "CpParcial2Pesh\\Program.cs",
+              "ToolTip": "G:\\PROGRAMACION\\Parcial2pesh\\CpParcial2Pesh\\Program.cs",
+              "RelativeToolTip": "CpParcial2Pesh\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T19:00:59.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmSerie.cs [Dise\u00F1o]",
+              "DocumentMoniker": "G:\\PROGRAMACION\\Parcial2pesh\\CpParcial2Pesh\\FrmSerie.cs",
+              "RelativeDocumentMoniker": "CpParcial2Pesh\\FrmSerie.cs",
+              "ToolTip": "G:\\PROGRAMACION\\Parcial2pesh\\CpParcial2Pesh\\FrmSerie.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpParcial2Pesh\\FrmSerie.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T19:03:48.056Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

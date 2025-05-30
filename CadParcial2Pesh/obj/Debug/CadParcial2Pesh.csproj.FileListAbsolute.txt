@@ -1,0 +1,12 @@
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\bin\Debug\CadParcial2Pesh.dll.config
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\bin\Debug\CadParcial2Pesh.dll
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\bin\Debug\CadParcial2Pesh.pdb
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\bin\Debug\EntityFramework.dll
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\bin\Debug\EntityFramework.SqlServer.dll
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\bin\Debug\EntityFramework.xml
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\bin\Debug\EntityFramework.SqlServer.xml
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\obj\Debug\CadParcial2Pesh.csproj.AssemblyReference.cache
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\obj\Debug\CadParcial2Pesh.csproj.CoreCompileInputs.cache
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\obj\Debug\CadParci.B84948EC.Up2Date
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\obj\Debug\CadParcial2Pesh.dll
+G:\PROGRAMACION\Parcial2pesh\CadParcial2Pesh\obj\Debug\CadParcial2Pesh.pdb
