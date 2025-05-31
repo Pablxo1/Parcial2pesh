@@ -30,7 +30,9 @@ namespace ClnParcial2Pesh
                 existente.episodios = serie.episodios;
                 existente.fechaEstreno = serie.fechaEstreno;
                 existente.estado = serie.estado;
-                return context.SaveChanges();
+                existente.urlPortada = serie.urlPortada;
+                existente.idiomaOriginal = serie.idiomaOriginal;
+				return context.SaveChanges();
             }
         }
 

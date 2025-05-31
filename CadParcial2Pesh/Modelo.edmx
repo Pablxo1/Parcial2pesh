@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="Parcial2PeshModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="Parcial2PeshModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Serie">
           <Key>
             <PropertyRef Name="id" />
@@ -16,11 +16,14 @@
           <Property Name="episodios" Type="int" Nullable="false" />
           <Property Name="fechaEstreno" Type="date" Nullable="false" />
           <Property Name="estado" Type="smallint" Nullable="false" />
+          <Property Name="urlPortada" Type="varchar" MaxLength="500" />
+          <Property Name="idiomaOriginal" Type="varchar" MaxLength="100" />
         </EntityType>
         <EntityContainer Name="Parcial2PeshModelStoreContainer">
           <EntitySet Name="Serie" EntityType="Self.Serie" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="Parcial2PeshModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -35,6 +38,8 @@
           <Property Name="episodios" Type="Int32" Nullable="false" />
           <Property Name="fechaEstreno" Type="DateTime" Nullable="false" Precision="0" />
           <Property Name="estado" Type="Int16" Nullable="false" />
+          <Property Name="urlPortada" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="idiomaOriginal" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityContainer Name="Parcial2PeshEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Serie" EntityType="Self.Serie" />
@@ -55,6 +60,8 @@
                 <ScalarProperty Name="episodios" ColumnName="episodios" />
                 <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
                 <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="urlPortada" ColumnName="urlPortada" />
+                <ScalarProperty Name="idiomaOriginal" ColumnName="idiomaOriginal" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

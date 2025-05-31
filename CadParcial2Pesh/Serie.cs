@@ -21,5 +21,7 @@ namespace CadParcial2Pesh
         public int episodios { get; set; }
         public System.DateTime fechaEstreno { get; set; }
         public short estado { get; set; }
+        public string urlPortada { get; set; }
+        public string idiomaOriginal { get; set; }
     }
 }

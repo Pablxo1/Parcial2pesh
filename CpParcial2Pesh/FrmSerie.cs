@@ -30,57 +30,68 @@ namespace CpParcial2Pesh
             dgvSeries.Columns["director"].HeaderText = "Director";
             dgvSeries.Columns["episodios"].HeaderText = "Episodios";
             dgvSeries.Columns["fechaEstreno"].HeaderText = "Fecha de Estreno";
-            if (lista.Count > 0) dgvSeries.CurrentCell = dgvSeries.Rows[0].Cells["titulo"];
+            dgvSeries.Columns["urlPortada"].HeaderText = "Url Portada";
+            dgvSeries.Columns["idiomaOriginal"].HeaderText = "Idioma Original";
+			if (lista.Count > 0) dgvSeries.CurrentCell = dgvSeries.Rows[0].Cells["titulo"];
             btnEditar.Enabled = lista.Count > 0;
             btnEliminar.Enabled = lista.Count > 0;
         }
 
-        private bool validar()
-        {
-            bool esValido = true;
-            erpTitulo.SetError(txtTitulo, "");
-            erpSinopsis.SetError(txtSinopsis, "");
-            erpDirector.SetError(txtDirector, "");
-            erpEpisodios.SetError(nudEpisodios, "");
-            erpFechaEstreno.SetError(dtpFechaEstreno, "");
+		private bool validar()
+		{
+			bool esValido = true;
+			erpTitulo.SetError(txtTitulo, "");
+			erpSinopsis.SetError(txtSinopsis, "");
+			erpDirector.SetError(txtDirector, "");
+			erpEpisodios.SetError(nudEpisodios, "");
+			erpFechaEstreno.SetError(dtpFechaEstreno, "");
+			erpUrlPortada.SetError(txtUrlPortada, "");
 
-            if (string.IsNullOrEmpty(txtTitulo.Text))
-            {
-                erpTitulo.SetError(txtTitulo, "El campo Titulo es obligatorio");
-                esValido = false;
-            }
-            if (string.IsNullOrEmpty(txtSinopsis.Text))
-            {
-                erpSinopsis.SetError(txtSinopsis, "El campo Sinopsis es obligatorio");
-                esValido = false;
-            }
-            if (string.IsNullOrEmpty(txtDirector.Text))
-            {
-                erpDirector.SetError(txtDirector, "El campo Director es obligatorio");
-                esValido = false;
-            }
+			if (string.IsNullOrEmpty(txtTitulo.Text))
+			{
+				erpTitulo.SetError(txtTitulo, "El campo Titulo es obligatorio");
+				esValido = false;
+			}
+			if (string.IsNullOrEmpty(txtSinopsis.Text))
+			{
+				erpSinopsis.SetError(txtSinopsis, "El campo Sinopsis es obligatorio");
+				esValido = false;
+			}
+			if (string.IsNullOrEmpty(txtDirector.Text))
+			{
+				erpDirector.SetError(txtDirector, "El campo Director es obligatorio");
+				esValido = false;
+			}
 
-            if (nudEpisodios.Value <= 0)
-            {
-                erpEpisodios.SetError(nudEpisodios, "El campo Episodios no puede ser menor a 0 o ser 0");
-                esValido = false;
-            }
-            // Definir la fecha de invención de la televisión: 26 de enero de 1926
-            DateTime fechaInventoTV = new DateTime(1926, 1, 26);
-            if (dtpFechaEstreno.Value < fechaInventoTV)
-            {
-                erpFechaEstreno.SetError(dtpFechaEstreno, "La Fecha de Estreno no puede ser anterior al 26/01/1926 (invención de la televisión)");
-                esValido = false;
-            }
-            return esValido;
-        }
+			if (nudEpisodios.Value <= 0)
+			{
+				erpEpisodios.SetError(nudEpisodios, "El campo Episodios no puede ser menor a 0 o ser 0");
+				esValido = false;
+			}
+			DateTime fechaInventoTV = new DateTime(1926, 1, 26);
+
+			if (dtpFechaEstreno.Value < fechaInventoTV)
+			{
+				erpFechaEstreno.SetError(dtpFechaEstreno, "La Fecha de Estreno no puede ser anterior al 26/01/1926 (invención de la televisión)");
+				esValido = false;
+			}
+			if (string.IsNullOrEmpty(txtUrlPortada.Text))
+			{
+				erpUrlPortada.SetError(txtUrlPortada, "El campo Url Portada es obligatorio");
+				esValido = false;
+			}
+
+			return esValido;
+		}
 
         private void limpiar()
         {
             txtTitulo.Clear();
             txtSinopsis.Clear();
             txtDirector.Clear();
-            nudEpisodios.Value = 0;
+            txtUrlPortada.Clear();
+            cbxIdiomaOriginal.SelectedIndex = -1;
+			nudEpisodios.Value = 0;
             dtpFechaEstreno.Value = DateTime.Now;
             modoEdicion = false;
         }
@@ -110,7 +121,9 @@ namespace CpParcial2Pesh
                 serie.director = txtDirector.Text.Trim();
                 serie.episodios = (int)nudEpisodios.Value;
                 serie.fechaEstreno = dtpFechaEstreno.Value;
-                if(!modoEdicion)
+                serie.urlPortada = txtUrlPortada.Text.Trim();
+                serie.idiomaOriginal = cbxIdiomaOriginal.Text.Trim();
+				if (!modoEdicion)
                 {
                     serie.estado = 1;
                     SeriesCln.insertar(serie);
@@ -139,7 +152,9 @@ namespace CpParcial2Pesh
             txtDirector.Text = serie.director;
             nudEpisodios.Value = serie.episodios;
             dtpFechaEstreno.Value = serie.fechaEstreno;
-            txtTitulo.Focus();
+            txtUrlPortada.Text = serie.urlPortada;
+            cbxIdiomaOriginal.Text = serie.idiomaOriginal;
+			txtTitulo.Focus();
             modoEdicion = true;
         }
 
